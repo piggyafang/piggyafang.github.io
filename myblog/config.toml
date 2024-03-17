@@ -1,5 +1,5 @@
 base_url = "https://not-matthias.github.io/apollo/"
-title = "not-matthias"
+title = "筆記心得"
 build_search_index = false
 generate_feed = true
 compile_sass = true
