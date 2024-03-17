@@ -5,6 +5,8 @@ generate_feed = true
 compile_sass = true
 minify_html = true
 
+theme = "apollo"
+
 [markdown]
 highlight_code = true
 highlight_theme = "ayu-dark"
@@ -13,7 +15,7 @@ highlight_theme = "ayu-dark"
 toc = true
 use_cdn = false
 favicon = "/icon/favicon.png"
-theme = "toggle" # light, dark, auto, toggle
+theme = "dark" # light, dark, auto, toggle
 comment = false
 # mathjax = true
 # mathjax_dollar_inline_enable = true
