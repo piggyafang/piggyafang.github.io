@@ -1,18 +1,24 @@
+{% import "macros/macros.html" as post_macros %}
+
 <!DOCTYPE html>
-<html lang="{% if page %}{{ page.lang }}{% else %}{{ config.default_language }}{% endif %}">
-<head>
-    {% include "head.html" %}
-</head>
+<html class="dark light">
+
+{% include "partials/header.html" %}
+
 <body>
-      <header>
-          {% include "header.html" %}
-      </header>
-      <main>
-          {% block content %}
-          {% endblock content %}
-      </main>
-      <footer>
-          {% include "footer.html" %}
-      </footer>
+    <div class="content">
+        {% include "partials/nav.html" %}
+
+        {# Post page is the default #}
+        {% block main_content %}
+            Nothing here?!
+        {% endblock main_content %}
+        {% if page.extra.comment is defined %}{% set show_comment = page.extra.comment %}{% else %}{% set show_comment = config.extra.comment %}{% endif %}
+        {% if show_comment %}
+        <div class="giscus"></div>
+        {% include "_giscus_script.html" %}
+        {% endif %}
+    </div>
 </body>
+
 </html>
