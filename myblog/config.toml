@@ -1,4 +1,4 @@
-base_url = "https://not-matthias.github.io/apollo/"
+base_url = "https://piggyafang.netlify.app/"
 title = "筆記心得"
 build_search_index = false
 generate_feed = true
