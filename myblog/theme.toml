@@ -1,16 +1,14 @@
-name = "apollo"
-description = "Modern and minimalistic blog theme"
-min_version = "0.14.0"
+name = "DeepThought"
+description = "A simple blog theme focused on writing powered by Bulma and Zola."
 license = "MIT"
-homepage = "https://github.com/not-matthias/apollo"
-demo = "https://not-matthias.github.io/apollo"
+homepage = "https://github.com/RatanShreshtha/DeepThought"
 
-# Any variable there can be overridden in the end user `config.toml`
-# You don't need to prefix variables by the theme name but as this will
-# be merged with user data, some kind of prefix or nesting is preferable
-# Use snake_casing to be consistent with the rest of Zola
+min_version = "0.14.1"
+
+demo = "https://deepthought-theme.netlify.app/"
+
 [extra]
 
 [author]
-name = "not-matthias"
-homepage = "https://github.com/not-matthias"
+name = "Ratan Kulshreshtha"
+homepage = "https://ratanshreshtha.dev"
