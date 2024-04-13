@@ -1,4 +1,4 @@
 +++
-title = "心得輸出"
-description = "輸入是為了輸出"
+title = "Ars Longa, vita brevis"
+description = "藝術千秋，人生朝露"
 +++
